@@ -29,6 +29,7 @@ public class TraitementImage
 /*En java, afin de transformer une image RGB en une image en blanc et noir, on dois
  * juste additionner les 3 composantes RGB de chaque pixel et diviser cette somme par 3
  */
+ 
 public int[] NiveauxdeGris()
 	{
 		imageNDG = new int[image.getWidth()*image.getHeight()];
